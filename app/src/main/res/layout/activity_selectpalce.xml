@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <include layout="@layout/activity_selectplace_toolbar"
+        android:id="@+id/id_toolbar"
+        />
+    <GridView
+        android:id="@+id/gvSearchStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_marginTop="15dp"
+        android:verticalSpacing="18dp"
+        android:numColumns="3"
+        android:visibility="gone"
+        >
+    </GridView>
+    <RelativeLayout
+        android:id="@+id/Relative_cityname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_toolbar"
+        >
+        <ListView
+            android:id="@+id/lv_cityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none"
+            >
+        </ListView>
+
+        <com.rail.myview.SideBar
+            android:id="@+id/cityiew_sidebar"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

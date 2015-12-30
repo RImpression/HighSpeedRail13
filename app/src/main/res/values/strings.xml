@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_OK">确定</string>
+    <string name="tab_menu_check">查询</string>
+    <string name="tab_menu_monitor">监控</string>
+    <string name="tab_menu_myself">个人</string>
+    <string name="tab_menu_more">更多</string>
+    <string name="btn_checkOne">查询1</string>
+    <string name="btn_checkTwo">查询</string>
+    <string name="title_activity_cheak">aaaa</string>
+    <string name="from_where">出发地</string>
+    <string name="to_where">目的地</string>
+    <string name="huizhou">惠州</string>
+    <string name="beijing">北京</string>
+    <string name="go_date">出发日期</string>
+    <string name="select_car">选择车型</string>
+    <string name="all_car">所有车型</string>
+    <string name="highSpeedRail">高铁</string>
+    <string name="updataVersion">版本更新</string>
+    <string name="url_server">http://192.168.1.99/version.xml</string>
+    <string name="select_date">选择日期</string>
+</resources>

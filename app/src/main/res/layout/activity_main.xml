@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/ly_toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <RadioGroup
+        android:id="@+id/rgTabbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tab_menu_first"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_check"
+            android:text="@string/tab_menu_check" />
+
+        <RadioButton
+            android:id="@+id/tab_menu_second"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_monitor"
+            android:text="@string/tab_menu_monitor" />
+
+        <RadioButton
+            android:id="@+id/tab_menu_third"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_myself"
+            android:text="@string/tab_menu_myself" />
+
+        <RadioButton
+            android:id="@+id/tab_menu_forth"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_more"
+            android:text="@string/tab_menu_more"/>
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/rgTabbar"
+        android:background="@color/write" />
+
+    <FrameLayout
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/div_tab_bar"
+        android:layout_below="@id/ly_toolbar"></FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/id_imageview_check"
+        android:layout_width="406dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.06" />
+    <TextView android:layout_width="match_parent"
+        android:id="@+id/showtextbiew"
+        android:layout_height="wrap_content" />
+    <EditText android:layout_width="match_parent"
+        android:id="@+id/tv_check"
+        android:layout_height="wrap_content" />
+    <Button android:text="subbimei"
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:text=" book"
+        android:id="@+id/button_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:text=" book1"
+        android:id="@+id/button_book1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

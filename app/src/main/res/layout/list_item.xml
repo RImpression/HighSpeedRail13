@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:orientation="horizontal" >
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D7410"
+            android:textStyle="bold"
+            android:id="@+id/tv_listview_item_checi"/>
+         <ImageView android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/iconfont_tag"/>
+        <TextView android:id="@+id/tv_listview_item_chufa"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汕尾"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/iconfont_toright"/>
+        <ImageView android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/iconfont_spoon"/>
+         <TextView android:id="@+id/tv_listview_item_daozhan"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="惠州"/>
+          <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/iconfont_unfold"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:orientation="horizontal" >
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07:40"
+            android:textColor="#aabbcc"
+            android:paddingLeft="50dp"
+            android:textStyle="bold"
+            android:id="@+id/tv_time_chufa"/>
+
+        <TextView
+            android:id="@+id/tv_time_jingguo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="70dp"
+            android:text="36分钟"
+            android:textSize="10dp" />
+       
+         <TextView android:id="@+id/tv_time_dada"
+            android:textColor="#aabbcc"
+            android:paddingLeft="70dp"
+            android:textStyle="bold"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:45"/>
+    </LinearLayout>
+     <com.rail.myview.MyLinearLayout
+         android:id="@+id/mylinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    </com.rail.myview.MyLinearLayout>
+
+</LinearLayout>
